@@ -6,7 +6,7 @@ DEFAULT_ANVIL_PRIVATE_KEY := 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efca
 
 install:; forge install
 build:; forge build
-test :; forge test --ffi
+test :; forge clean && forge test --ffi
 coverage :; forge coverage --ffi --report debug > coverage-report.txt
 snapshot :; forge snapshot --ffi
 
@@ -18,8 +18,8 @@ ifeq ($(findstring --network goerli,$(ARGS)),--network goerli)
 endif
 
 # Base
-ifeq ($(findstring --network base,$(ARGS)),--network base)
-	NETWORK_ARGS := --rpc-url $(BASE_RPC_ENDPOINT) --private-key $(PRIVATE_KEY) --verify --etherscan-api-key $(BASESCAN_API_KEY) --broadcast -vvvv
+ifeq ($(findstring --network op_sepolia,$(ARGS)),--network op_sepolia)
+	NETWORK_ARGS := --rpc-url https://sepolia.optimism.io --account baseSepolia --broadcast -vvvv
 endif
 
 # Base Sepolia
