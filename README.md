@@ -1,14 +1,14 @@
 <p align="center">
    <br>
      <a href="https://layer3.xyz" target="_blank">
-      <img width="207" height="55" src="./assets/layer3.png">
+      <img width="300" height="55" src="./assets/layer3.png">
      </a>
    <br>
    <br>
 </p>
 
 [![Twitter](https://img.shields.io/twitter/follow/layer3xyz?color=blue&style=flat-square)](https://twitter.com/layer3xyz)
-[![Discord](https://img.shields.io/discord/884514862737281024?color=green&style=flat-square&logo=discord)](https://discordapp.com/layer3)
+[![Discord](https://img.shields.io/discord/884514862737281024?color=green&style=flat-square&logo=discord)](https://discord.com/invite/layer3)
 [![LICENSE](https://img.shields.io/badge/license-Apache--2.0-blue?logo=apache)](https://github.com/layer3xyz/cube-contracts/blob/main/LICENSE)
 
 ```
